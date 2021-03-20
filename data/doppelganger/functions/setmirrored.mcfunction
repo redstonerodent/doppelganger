@@ -2,6 +2,7 @@
 execute if entity @s[tag=doppel.mirrored] run function doppelganger:unsetmirrored
 
 tag @s add doppel.mirrored
+scoreboard players enable @s unset_mirrored
 
 # create doppelganger
 summon minecraft:armor_stand ~.25 ~ ~.25 {Tags:["doppel.newmirror","doppel.ganger"], Invulnerable:1, DisabledSlots:2096896, NoGravity:1, NoBasePlate:1, ShowArms:1}
