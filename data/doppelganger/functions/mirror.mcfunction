@@ -18,6 +18,6 @@ data modify entity @e[tag=doppel.moving, limit=1] HandItems set value []
 data modify entity @e[tag=doppel.moving, limit=1] HandItems[0] set from entity @s SelectedItem
 data modify entity @e[tag=doppel.moving, limit=1] HandItems[1] set from entity @s Inventory[{Slot:-106b}]
 
-execute positioned as @e[tag=doppel.moving] rotated as @s run tp @e[tag=doppel.moving] ~ ~ ~ ~180 ~
+execute positioned as @e[tag=doppel.moving] rotated as @s run tp @e[tag=doppel.moving] ~-.5 ~ ~-.5 ~180 ~
 
 tag @e[tag=doppel.moving] remove doppel.moving
