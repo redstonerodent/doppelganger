@@ -1,0 +1,1 @@
+execute as @p[tag=doppel.mirrored] run function doppelganger:mirror
