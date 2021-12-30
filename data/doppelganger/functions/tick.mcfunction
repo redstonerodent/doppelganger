@@ -3,7 +3,6 @@ execute as @a[tag=doppel.mirrored] run function doppelganger:mirror
 
 # process triggers
 
-scoreboard players enable @a set_mirrored
 # first clear any existing doppel
 execute as @a unless score @s set_mirrored matches 0 at @s run function doppelganger:setmirrored
 scoreboard players reset @a set_mirrored
