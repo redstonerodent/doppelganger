@@ -11,6 +11,7 @@ scoreboard objectives remove set_mirrored
 scoreboard objectives remove unset_mirrored
 scoreboard objectives remove move_doppel_x
 scoreboard objectives remove move_doppel_z
+scoreboard objectives remove toggle_invisible
 
 # remove tags
 tag @e[tag=doppel.mirrored] remove doppel.mirrored
