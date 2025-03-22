@@ -11,10 +11,6 @@
             {
               "function": "minecraft:fill_player_head",
               "entity": "this"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{DoppelHead:1}"
             }
           ]
         }
